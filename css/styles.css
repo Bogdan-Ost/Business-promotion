@@ -1,3 +1,5 @@
+/* --------------------------------start global-------------------------------- */
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -62,6 +64,49 @@ img {
 .section {
   padding: 50px 0;
 }
+/* ----------------------end global---------------------- */
+
+/* ---------------------start built--------------------- */
+
+.built-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+
+.built-list {
+  display: flex;
+  flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
+.built-list-icon-container {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 19px;
+  background: #02897a;
+  fill: #fff;
+}
+
+.thread {
+  background: #4d8dff;
+}
+
+.heart {
+  background: 740a76;
+}
+
+.clock {
+  background: #f03e3d;
+}
+
+/* ----------------------end built------------------------ */
+
+/* --------------------start benefits-------------------- */
 
 .section-benefits {
   padding-top: 70px;
@@ -111,3 +156,5 @@ img {
 .benefits-card-img {
   flex-shrink: 0;
 }
+
+/* ----------------------------------end benefits---------------------------------- */
